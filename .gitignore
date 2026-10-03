@@ -1,2 +1,2 @@
 node_modules/
-.env
+.envgit push -u origin feature-auth
