@@ -4,7 +4,7 @@
  * hoặc thay đổi đường dẫn này khi deploy lên Cloud (Render.com)
  */
 // const API_BASE_URL = 'https://lhu-ecommerce-api-hanh.onrender.com/api';
-const API_BASE_URL = 'http://localhost:5000/apis';
+const API_BASE_URL = 'http://localhost:5000/api';
 
 const API = {
   // 1. Danh mục
