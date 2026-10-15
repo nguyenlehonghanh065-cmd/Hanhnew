@@ -45,3 +45,9 @@ userSchema.methods.matchPassword = async function (enteredPassword) {
  return await bcrypt.compare(enteredPassword, this.password);
 };
 module.exports = mongoose.model('User', userSchema);
+const paymentRoutes = require('./routes/paymentRoutes');
+const aiRoutes = require('./routes/aiRoutes');
+const shippingRoutes = require('./routes/shippingRoutes');
+app.use('/api/payment', paymentRoutes);
+app.use('/api/ai', aiRoutes);
+app.use('/api/shipping', shippingRoutes);
